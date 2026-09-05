@@ -1,4 +1,43 @@
 body {
-    background: LightSteelBlue;
-    font-family: Comic-sans, Arial, Helvetica, sans-serif;
+    background: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.logo {
+    width: 600px;
+    height: 130px;
+    border: 0;
+}
+
+table {
+    width: 100%;
+    border: 0;
+}
+
+td {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 13px;
+}
+
+p.copyright {
+    font-size: 10px;
+}
+
+a {
+    color: rgb(0, 0, 153);
+}
+
+a.visited {
+    color: rgb(0, 51, 102);
 }

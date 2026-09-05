@@ -1,12 +1,62 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
     <head>
-        <title>My Cool And Awesome Website</title>
+        <title>Google</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
+        <div class="center">
+            <img src="images/logo.gif" usemap="#map1" alt="Google">
+                <map name="map1"> <area shape="RECT" coords="493,58,595,103" href="jobs.html" alt="We're Hiring!"/>
+                    <area shape="rect" coords="381,57,488,104" href="about.html" alt="About Google" title="About Google"/>
+                </map>
+        </div>
         
+        <table><tbody><tr><td>
+                        <div class="center">
+                            <form id="searchForm" action="http://www.google.com/search" method="get" name="f">
+                                Search the web using Google<br>
+                                    <input type="text" value="" name="q" size="40"><br>
+                                            <input type="submit" value="Google Search">
+                                                <input name="sa" type="submit" value="I'm Feeling Lucky"><br><br>
+                            </form>
+                        </div>
+        </td></tr></tbody></table>
+        
+        <script>
+<!--
+document.f.q.focus();
+// -->
+</script>
+        
+        <p>
+                <a href="buttons.html">Add Google Buttons To Your Browser</a>
+        </p>
+        <p>
+                <a href="https://web.archive.org/web/20000301105534/http://services.google.com/cobrand/free_trial">Add Free WebSearch To Your Site</a>
+        </p>
+        <br>
+            <p>
+                
+            </p>
+            <p class="copyright">©2000 Google Inc.&nbsp;
+                    <a href="about.html">About</a> | <a href="help.html">Search
+                        Tips</a> | <a href="contact.html">Feedback</a> | <a href="jobs.html">Jobs@Google</a>
+            </p>
+            
+            <!--Adds &udm=14 to the end of the query, removing the AI overview from the search results-->
+    <script>
+        document.getElementById('searchForm').addEventListener('submit', function(event) {
+            if (!this.querySelector('input[name="udm"]')) {
+                const hiddenInput = document.createElement('input');
+                hiddenInput.type = 'hidden';
+                hiddenInput.name = 'udm';
+                hiddenInput.value = '14';
+                this.appendChild(hiddenInput);
+            }
+        });
+    </script>
     </body>
 </html>
