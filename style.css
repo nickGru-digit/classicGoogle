@@ -11,8 +11,9 @@ body {
 }
 
 img.logo {
-    width: 600px;
-    height: 130px;
+    max-width: 600px;
+    width: 90vw;
+    height: auto;
     border: 0;
 }
 
