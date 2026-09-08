@@ -1,11 +1,24 @@
-body {
+body.google {
     background: #FFFFFF;
     font-family: Arial, sans-serif;
     font-size: 13px;
 }
 
+body.yahoo {
+    background: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
 .centergoog {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centeryahoo {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -17,13 +30,43 @@ img.logogoog {
     border: 0;
 }
 
+img.logoyahoo {
+    max-width: 600px;
+    height: 59px;
+    border: 0;
+}
+
+img.messageyahoo {
+    width: 230px;
+    height: 30px;
+    border: 0;
+}
+
 table.goog {
     width: 100%;
     border: 0;
 }
 
+table.yahoo {
+    border: 0;
+    border-collapse: separate;
+    border-spacing: 0;
+    padding: 4px; 
+    width: 600px;
+}
+
 td.goog {
     text-align: center;
+}
+
+td.yahoo {
+    text-align: center; 
+    width: 160px;
+}
+
+td.yahoo2 {
+    text-align: center; 
+    text-wrap: nowrap;
 }
 
 p.goog {
