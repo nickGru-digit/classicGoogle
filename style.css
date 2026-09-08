@@ -4,41 +4,42 @@ body {
     font-size: 13px;
 }
 
-.center {
+.centergoog {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-img.logo {
+img.logogoog {
     max-width: 600px;
     width: 90vw;
     height: auto;
     border: 0;
 }
 
-table {
+table.goog {
     width: 100%;
     border: 0;
 }
 
-td {
+td.goog {
     text-align: center;
 }
 
-p {
+p.goog {
     text-align: center;
     font-size: 13px;
 }
 
-p.copyright {
+p.copyrightgoog {
+    text-align: center;
     font-size: 10px;
 }
 
-a {
+a.goog {
     color: rgb(0, 0, 153);
 }
 
-a.visited {
+a.goog.visited {
     color: rgb(0, 51, 102);
 }
