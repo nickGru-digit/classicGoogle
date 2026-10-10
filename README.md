@@ -1,6 +1,12 @@
 # Classic Google
 This is a site designed to mimic the appeareance and useability of google.com (and yahoo.com) based on the first Wayback Machine archive of the homepage after 2000-01-01
 
+Mirrored from:
+https://codeberg.org/nickGru/classicGoogle
+
+Mirrored to:
+https://github.com/nickGru-digit/classicGoogle
+
 Reference sources:
 https://web.archive.org/web/20000301105534/http://google.com/
 https://web.archive.org/web/20000301053337/http://www.yahoo.com/
